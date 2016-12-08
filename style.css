@@ -1,0 +1,72 @@
+html {
+	background-color: white;
+}
+
+.wrapper {
+	margin: 5%;
+
+}
+
+h1 {
+	margin-left: 5%;
+	font-family: arial;
+	padding: 2%;
+	font-size: 50px;
+	color: white;
+	background-color: black;
+	width: 25%;
+
+
+}
+
+#vaas {
+	position: absolute;
+	margin-left: 600px;
+	margin-top: -200px;
+	width: 60px;
+	
+
+	
+}
+
+#beton{
+	position: absolute;
+	margin-left: 10px;
+	margin-top: 67px;
+	
+}
+
+#weven{
+	position: absolute;
+	margin-left: 45px;
+	margin-top: 600px;
+	
+}
+
+h2 {
+	position: relative;
+	margin-left: 10%;
+	width: 50%;
+	
+}
+
+#tekst p {
+	position: relative;
+	font-family: arial;
+	width: 25%;
+	height: 700px;
+	display: inline-block;
+	float: left;
+	margin-bottom: : 100px;
+	padding-left: 30px;
+
+
+}
+
+#footnotes p {
+	position: absolute;
+	width: 12%;
+	font-family: arial;
+	font-size: 10px;
+
+}
