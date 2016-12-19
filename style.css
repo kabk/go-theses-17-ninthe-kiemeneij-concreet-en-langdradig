@@ -1,38 +1,80 @@
+* {
+	padding: 0px;
+	margin: 0px;
+
+}
+
+@font-face {
+    font-family: BearButteTPlain;
+    src: url(fonts/BearButteTPlain.ttf);
+    font-family: BearButteTBoldItalic;
+    src: url(fonts/BearButteTBoldItalic.ttf);
+}
+
 html {
 	background-color: white;
 }
 
 .wrapper {
 	margin: 5%;
+}
+
+#menu {
+	color: red;
+	position: fixed;
+	display: inline-block;
+	font-family:  BearButteTBoldItalic;
+	font-size: 12px;
+	margin-top: 10%;
+	margin-left: 7%;
+	width: 10%;
 
 }
+
+#menu ol li a {
+	color: red;
+
+}
+
+#menu ol li a:hover {
+	color: black;
+
+}
+
 
 h1 {
-	margin-left: 5%;
-	font-family: arial;
-	padding: 2%;
-	font-size: 50px;
-	color: white;
-	background-color: black;
-	width: 25%;
-
-
+	color: red;
+	/*border-style: solid;
+	border-width: 0px 0px 5px 0px;*/
+	box-shadow: 0px 0px 100px #ff0000;
+	top: 0;
+	position: fixed;
+	font-family: BearButteTBoldItalic;
+	padding: 2% 10%;
+	font-size: 75px;
+	background-color: white;
+	width: 100%;
 }
 
-#vaas {
+#julia {
 	position: absolute;
-	margin-left: 600px;
-	margin-top: -200px;
+	margin-left: 77%;
+	margin-top: 29%;
 	width: 60px;
-	
-
+	z-index: -1;
 	
 }
 
-#beton{
+#kevin {
 	position: absolute;
-	margin-left: 10px;
-	margin-top: 67px;
+	margin-left: 77%;
+	margin-top: 74%;
+	width: 60px;
+	z-index: -1;
+	
+}
+
+
 	
 }
 
@@ -44,29 +86,43 @@ h1 {
 }
 
 h2 {
-	position: relative;
-	margin-left: 10%;
-	width: 50%;
+
+	padding-top: 10%;
+	color: red;
+	font-size: 36px;
+	position: absolute;
+	font-family: BearButteTPlain;
+	width: 60%;
+	margin-top: 0%;
+	margin-left: 16%;
+	z-index: -1;
+	
+	
 	
 }
 
 #tekst p {
+	color: red;
 	position: relative;
-	font-family: arial;
-	width: 25%;
-	height: 700px;
+	font-size: 18px;
+	font-family: BearButteTPlain;
+	width: 60%;
 	display: inline-block;
 	float: left;
-	margin-bottom: : 100px;
-	padding-left: 30px;
+	margin-left: 20%;
+	margin-top: 7%;
+	margin-bottom: 100px;
+	z-index: -1;
 
 
 }
 
 #footnotes p {
-	position: absolute;
+		position: absolute;
 	width: 12%;
 	font-family: arial;
 	font-size: 10px;
+	margin-left: 5%;
+	margin-top: 25%;
 
 }
